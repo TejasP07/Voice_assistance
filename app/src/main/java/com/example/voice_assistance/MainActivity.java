@@ -148,6 +148,10 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, strHack, Toast.LENGTH_LONG).show();
             } else if (result_message.contains("earth")) {
                 speak("The earth is a sphere. As are all other planets and celestial bodies");
+            } else if (result_message.contains("you eat")) {
+                speak("I prefered to eat data from Google, Yahoo, Bing");
+            }  else if (result_message.contains("your age")) {
+                speak("My developers constantly updating me, so my age is not fixed");
             } else {
                 String s1 = result_message;
                 Toast.makeText(this, s1, Toast.LENGTH_SHORT).show();
